@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="1000.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="iss.frontend.gui.AdminController">
+   <children>
+      <TabPane fx:id="tabPane" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <tabs>
+          <Tab text="Manage Products">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" stylesheets="@../styles/manage-products.css">
+                     <children>
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="831.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <children>
+                              <Label styleClass="main_label" text="Manage Products" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="1300.0" AnchorPane.topAnchor="30.0" />
+                              <Button mnemonicParsing="false" onAction="#handleAddItem" styleClass="top_buttons" text="Add item" AnchorPane.bottomAnchor="55.0" AnchorPane.leftAnchor="1580.0" AnchorPane.rightAnchor="200.0" AnchorPane.topAnchor="35.0" />
+                              <Button mnemonicParsing="false" onAction="#handleLogout" styleClass="top_buttons" text="Log out" AnchorPane.bottomAnchor="55.0" AnchorPane.leftAnchor="1750.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="35.0" />
+                           </children>
+                        </AnchorPane>
+                        <Separator prefHeight="31.0" prefWidth="200.0" AnchorPane.bottomAnchor="846.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="125.0" />
+                        <AnchorPane layoutY="150.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="150.0">
+                           <children>
+                              <Label styleClass="search_label" text="Search" AnchorPane.bottomAnchor="770.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="1500.0" AnchorPane.topAnchor="0.0" />
+                              <TextField fx:id="nameFilterField" maxHeight="40.0" onKeyTyped="#handleFilterProducts" promptText="Name" styleClass="search_field" AnchorPane.bottomAnchor="721.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="1400.0" AnchorPane.topAnchor="60.0" />
+                              <ScrollPane fx:id="scrollPane" hbarPolicy="NEVER" prefHeight="200.0" prefWidth="200.0" vbarPolicy="ALWAYS" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="70.0" AnchorPane.topAnchor="130.0">
+                                <content>
+                                  <VBox fx:id="productsContainer" minHeight="0.0" minWidth="0.0" />
+                                </content>
+                              </ScrollPane>
+                           </children>
+                        </AnchorPane>
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Manage Accounts">
+            <content>
+              <AnchorPane stylesheets="@../styles/manage-accounts.css">
+                     <children>
+                        <Label styleClass="search_label" text="Search" AnchorPane.bottomAnchor="940.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="1400.0" AnchorPane.topAnchor="70.0" />
+                        <TextField fx:id="usernameFilterField" onKeyTyped="#handleFilerAgents" promptText="Username" styleClass="search_field" AnchorPane.bottomAnchor="871.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="700.0" AnchorPane.topAnchor="120.0" />
+                        <Button mnemonicParsing="false" onAction="#handleCreateAccount" styleClass="button_main" text="Create Account" AnchorPane.bottomAnchor="871.0" AnchorPane.leftAnchor="1270.0" AnchorPane.rightAnchor="380.0" AnchorPane.topAnchor="120.0" />
+                        <Button mnemonicParsing="false" onAction="#handleLogout" styleClass="button_main" text="Log out" AnchorPane.bottomAnchor="871.0" AnchorPane.leftAnchor="1580.0" AnchorPane.rightAnchor="80.0" AnchorPane.topAnchor="120.0" />
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="tableBackground" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="80.0" AnchorPane.topAnchor="220.0">
+                           <children>
+                              <AnchorPane prefHeight="100.0" prefWidth="200.0" styleClass="customAnchorPane" AnchorPane.bottomAnchor="629.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <children>
+                                    <AnchorPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="1230.0" AnchorPane.topAnchor="0.0">
+                                       <children>
+                                          <Label styleClass="tableLabel" text="Username" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="500.0" AnchorPane.rightAnchor="730.0" AnchorPane.topAnchor="0.0">
+                                       <children>
+                                          <Label styleClass="tableLabel" text="Full name" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="1000.0" AnchorPane.rightAnchor="230.0" AnchorPane.topAnchor="0.0">
+                                       <children>
+                                          <Label styleClass="tableLabel" text="Password" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="1500.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <children>
+                                          <Label styleClass="tableLabel" text="Options" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </AnchorPane>
+                              <ScrollPane hbarPolicy="NEVER" prefHeight="200.0" prefWidth="200.0" styleClass="customScrollPane" AnchorPane.bottomAnchor="4.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="90.0">
+                                <content>
+                                        <VBox fx:id="agentsContainer" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                </content>
+                              </ScrollPane>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

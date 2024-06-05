@@ -33,4 +33,8 @@ public class ServiceDeliveryAddress {
         return repoDeliveryAddress.save(deliveryAddress);
     }
 
+    public List<DeliveryAddress> getAddressesForAgent(Long id){
+        return repoDeliveryAddress.findByAgentId(id);
+    }
+
 }

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="1000.0" prefWidth="1920.0" stylesheets="@../styles/agent-page-style.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="iss.frontend.gui.AgentViewController">
+    <AnchorPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="851.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <children>
+            <Label styleClass="main_label" text="Products" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="1300.0" AnchorPane.topAnchor="30.0" />
+            <Button mnemonicParsing="false" onAction="#handleGoToCart" styleClass="top_buttons" text="Cart" AnchorPane.bottomAnchor="55.0" AnchorPane.leftAnchor="1580.0" AnchorPane.rightAnchor="200.0" AnchorPane.topAnchor="35.0" />
+            <Button mnemonicParsing="false" onAction="#handleLogout" styleClass="top_buttons" text="Log out" AnchorPane.bottomAnchor="55.0" AnchorPane.leftAnchor="1750.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="35.0" />
+        </children>
+    </AnchorPane>
+    <Separator prefHeight="31.0" prefWidth="200.0" AnchorPane.bottomAnchor="866.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="105.0" />
+    <AnchorPane layoutY="150.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="130.0">
+        <children>
+            <Label styleClass="search_label" text="Search" AnchorPane.bottomAnchor="800.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="1500.0" AnchorPane.topAnchor="0.0" />
+            <TextField fx:id="nameFilterField" maxHeight="40.0" onKeyTyped="#handleFilerProducts" promptText="Name" styleClass="search_field" AnchorPane.bottomAnchor="760.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="1400.0" AnchorPane.topAnchor="60.0" />
+         <ScrollPane hbarPolicy="NEVER" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="70.0" AnchorPane.topAnchor="150.0">
+           <content>
+             <VBox fx:id="productsContainer" minHeight="0.0" minWidth="0.0" />
+           </content>
+         </ScrollPane>
+        </children>
+    </AnchorPane>
+
+</AnchorPane>

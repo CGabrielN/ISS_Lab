@@ -20,7 +20,6 @@ public class Order {
     @Column(name = "order_id")
     private Long id;
 
-    @NotEmpty(message = "Try again! Order date cannot be empty")
     @Column(name = "order_date")
     private LocalDateTime orderDate;
 

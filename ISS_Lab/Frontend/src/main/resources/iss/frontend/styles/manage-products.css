@@ -1,0 +1,26 @@
+.main_label{
+    -fx-font-family: Consolas;
+    -fx-font-size: 40px;
+    -fx-font-weight: bold;
+    -fx-padding: 0 0 0 15px;
+}
+
+.top_buttons{
+    -fx-font-family: Consolas;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 15px;
+}
+
+.search_label{
+    -fx-font-family: Consolas;
+    -fx-font-size: 28px;
+    -fx-padding: 0px 0px 0px 10px;
+    -fx-font-weight: bold;
+}
+
+.search_field{
+    -fx-font-size: 20px;
+    -fx-font-family: Consolas;
+    -fx-background-radius: 15px;
+}

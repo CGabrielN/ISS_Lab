@@ -1,0 +1,39 @@
+.text-field{
+    -fx-font-family: Consolas;
+    -fx-font-size: 18px;
+    -fx-text-fill: black;
+    -fx-border-radius: 15px;
+    -fx-background-radius: 10px;
+    -fx-alignment: center;
+}
+
+.add_to_cart_button{
+    -fx-background-color: #00FBFF;
+    -fx-text-fill: black;
+    -fx-font-family: Consolas;
+    -fx-font-size: 16px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+.buttons{
+    -fx-font-weight: bold;
+    -fx-font-family: Consolas;
+    -fx-font-size: 18px;
+}
+
+.label{
+    -fx-font-family: Consolas;
+    -fx-font-size: 20px;
+    -fx-text-fill: black;
+    -fx-alignment: center;
+}
+
+.background{
+    -fx-background-color: #e5e5dc;
+    -fx-background-radius: 15px;
+}
+
+.main_background{
+    -fx-baground-color: white;
+}

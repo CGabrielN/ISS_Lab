@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="650.0" prefWidth="500" stylesheets="@../styles/add-edit-product-style.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="iss.frontend.gui.AddEditProductController">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="background" AnchorPane.bottomAnchor="70.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="30.0">
+         <children>
+            <TextField fx:id="pathField" promptText="Image Path" styleClass="imageTextField" AnchorPane.bottomAnchor="450.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="50.0" />
+            <TextField fx:id="nameField" promptText="Product Name" styleClass="nameTextField" AnchorPane.bottomAnchor="390.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="110.0" />
+            <TextField fx:id="priceField" promptText="Price" styleClass="priceTextField" AnchorPane.bottomAnchor="330.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="170.0" />
+            <TextField fx:id="quantityField" promptText="Available quantity" styleClass="quantityTextField" AnchorPane.bottomAnchor="270.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="230.0" />
+            <TextArea fx:id="descriptionField" promptText="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat" styleClass="descriptionTextField" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="290.0" />
+            <Label fx:id="windowLabel" text="Edit/Add Product" AnchorPane.bottomAnchor="510.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="5.0" />
+         </children></AnchorPane>
+      <Button onAction="#handleSave" mnemonicParsing="false" text="Save" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="190.0" AnchorPane.rightAnchor="190.0" AnchorPane.topAnchor="590.0" />
+      <Button onAction="#handleClose" mnemonicParsing="false" text="Close" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="10.0" />
+   </children>
+</AnchorPane>

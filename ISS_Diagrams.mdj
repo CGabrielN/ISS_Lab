@@ -6492,7 +6492,7 @@
 											"containerExtending": true,
 											"left": 217,
 											"top": 119,
-											"width": 75,
+											"width": 75.68359375,
 											"height": 12,
 											"text": "«stereotype»"
 										},
@@ -6507,7 +6507,7 @@
 											"containerExtending": true,
 											"left": 217,
 											"top": 133,
-											"width": 75,
+											"width": 75.68359375,
 											"height": 12,
 											"text": "Specification"
 										},
@@ -6549,7 +6549,7 @@
 									"containerExtending": true,
 									"left": 212,
 									"top": 112,
-									"width": 85,
+									"width": 85.68359375,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFElnJRglVPiBM="
@@ -6624,7 +6624,7 @@
 							"containerExtending": true,
 							"left": 212,
 							"top": 112,
-							"width": 84,
+							"width": 84.68359375,
 							"height": 38,
 							"nameCompartment": {
 								"$ref": "AAAAAAFElnJRglVN/RI="
@@ -11295,7 +11295,7 @@
 											"containerExtending": true,
 											"left": 561,
 											"top": 545,
-											"width": 93,
+											"width": 93.6484375,
 											"height": 12,
 											"text": "«metaClass»"
 										},
@@ -11310,7 +11310,7 @@
 											"containerExtending": true,
 											"left": 561,
 											"top": 559,
-											"width": 93,
+											"width": 93.6484375,
 											"height": 12,
 											"text": "UMLComponent"
 										},
@@ -11349,7 +11349,7 @@
 									"containerExtending": true,
 									"left": 556,
 									"top": 540,
-									"width": 103,
+									"width": 103.6484375,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFFwLRECl7u5vE="
@@ -11370,7 +11370,7 @@
 							"containerExtending": true,
 							"left": 556,
 							"top": 540,
-							"width": 102,
+							"width": 102.6484375,
 							"height": 261,
 							"nameCompartment": {
 								"$ref": "AAAAAAFFwLRECl7tsQE="
@@ -11604,7 +11604,7 @@
 											"containerExtending": true,
 											"left": 725,
 											"top": 597,
-											"width": 89,
+											"width": 89.67578125,
 											"height": 12,
 											"text": "«stereotype»"
 										},
@@ -11618,7 +11618,7 @@
 											"containerExtending": true,
 											"left": 725,
 											"top": 611,
-											"width": 89,
+											"width": 89.67578125,
 											"height": 12,
 											"text": "Implementation"
 										},
@@ -11656,7 +11656,7 @@
 									"containerExtending": true,
 									"left": 720,
 									"top": 592,
-									"width": 99,
+									"width": 99.67578125,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFFwLSByF8yMLo="
@@ -11727,7 +11727,7 @@
 							"containerExtending": true,
 							"left": 720,
 							"top": 592,
-							"width": 98,
+							"width": 98.67578125,
 							"height": 36,
 							"nameCompartment": {
 								"$ref": "AAAAAAFFwLSByF8x/Yc="
@@ -12390,7 +12390,7 @@
 							"tail": {
 								"$ref": "AAAAAAFFwLR8CV8I99Y="
 							},
-							"points": "720:560;658:560",
+							"points": "720:560;659:560",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFFwLV9gV/Z8CU="
@@ -12487,7 +12487,7 @@
 							"tail": {
 								"$ref": "AAAAAAFFwLSByF8w+gI="
 							},
-							"points": "720:612;658:612",
+							"points": "720:612;659:612",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFFwLWA0V/q2AI="
@@ -12584,7 +12584,7 @@
 							"tail": {
 								"$ref": "AAAAAAFFwLSIN19Ytdk="
 							},
-							"points": "720:668;658:668",
+							"points": "720:668;659:668",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFFwLWEUV/78Ig="
@@ -12681,7 +12681,7 @@
 							"tail": {
 								"$ref": "AAAAAAFFwLSO/1+AoeQ="
 							},
-							"points": "720:728;658:728",
+							"points": "720:728;659:728",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFFwLWIQWAMDo8="
@@ -12778,7 +12778,7 @@
 							"tail": {
 								"$ref": "AAAAAAFFwLSXP1+o0Kw="
 							},
-							"points": "720:780;658:780",
+							"points": "720:780;659:780",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFFwLWMgWAd1rc="
@@ -15741,7 +15741,7 @@
 											"containerExtending": true,
 											"left": 729,
 											"top": 893,
-											"width": 76,
+											"width": 76.345703125,
 											"height": 12,
 											"text": "«stereotype»"
 										},
@@ -15755,7 +15755,7 @@
 											"containerExtending": true,
 											"left": 729,
 											"top": 907,
-											"width": 76,
+											"width": 76.345703125,
 											"height": 12,
 											"text": "ModelLibrary"
 										},
@@ -15791,7 +15791,7 @@
 									"containerExtending": true,
 									"left": 724,
 									"top": 888,
-									"width": 86,
+									"width": 86.345703125,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFFwMeIHGMEN4g="
@@ -15861,7 +15861,7 @@
 							"containerExtending": true,
 							"left": 724,
 							"top": 888,
-							"width": 85,
+							"width": 85.345703125,
 							"height": 37,
 							"nameCompartment": {
 								"$ref": "AAAAAAFFwMeIHGMDiPY="
@@ -19542,7 +19542,7 @@
 			"_parent": {
 				"$ref": "AAAAAAFElm5XMFNoGY0="
 			},
-			"name": "Model1",
+			"name": "Phase1",
 			"ownedElements": [
 				{
 					"_type": "UMLClassDiagram",
@@ -19607,9 +19607,9 @@
 											"font": "Arial;13;0",
 											"left": -656,
 											"top": -96,
-											"width": 80.9072265625,
+											"width": 82.36083984375,
 											"height": 13,
-											"text": "(from Model1)"
+											"text": "(from Phase1)"
 										},
 										{
 											"_type": "LabelView",
@@ -19819,9 +19819,9 @@
 											"font": "Arial;13;0",
 											"left": -288,
 											"top": 544,
-											"width": 80.9072265625,
+											"width": 82.36083984375,
 											"height": 13,
-											"text": "(from Model1)"
+											"text": "(from Phase1)"
 										},
 										{
 											"_type": "LabelView",
@@ -20014,9 +20014,9 @@
 											"font": "Arial;13;0",
 											"left": 1312,
 											"top": -288,
-											"width": 80.9072265625,
+											"width": 82.36083984375,
 											"height": 13,
-											"text": "(from Model1)"
+											"text": "(from Phase1)"
 										},
 										{
 											"_type": "LabelView",
@@ -20209,9 +20209,9 @@
 											"font": "Arial;13;0",
 											"left": 864,
 											"top": 688,
-											"width": 80.9072265625,
+											"width": 82.36083984375,
 											"height": 13,
-											"text": "(from Model1)"
+											"text": "(from Phase1)"
 										},
 										{
 											"_type": "LabelView",
@@ -20456,9 +20456,9 @@
 											"font": "Arial;13;0",
 											"left": 704,
 											"top": -176,
-											"width": 80.9072265625,
+											"width": 82.36083984375,
 											"height": 13,
-											"text": "(from Model1)"
+											"text": "(from Phase1)"
 										},
 										{
 											"_type": "LabelView",
@@ -20738,9 +20738,9 @@
 											"font": "Arial;13;0",
 											"left": -1552,
 											"top": 640,
-											"width": 80.9072265625,
+											"width": 82.36083984375,
 											"height": 13,
-											"text": "(from Model1)"
+											"text": "(from Phase1)"
 										},
 										{
 											"_type": "LabelView",
@@ -22655,9 +22655,9 @@
 											"font": "Arial;13;0",
 											"left": 464,
 											"top": 304,
-											"width": 80.9072265625,
+											"width": 82.36083984375,
 											"height": 13,
-											"text": "(from Model1)"
+											"text": "(from Phase1)"
 										},
 										{
 											"_type": "LabelView",
@@ -23690,9 +23690,9 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": -32,
-											"width": 80.9072265625,
+											"width": 82.36083984375,
 											"height": 13,
-											"text": "(from Model1)"
+											"text": "(from Phase1)"
 										},
 										{
 											"_type": "LabelView",
@@ -23901,9 +23901,9 @@
 											"font": "Arial;13;0",
 											"left": 32,
 											"top": 400,
-											"width": 80.9072265625,
+											"width": 82.36083984375,
 											"height": 13,
-											"text": "(from Model1)"
+											"text": "(from Phase1)"
 										},
 										{
 											"_type": "LabelView",
@@ -25424,7 +25424,7 @@
 			"_parent": {
 				"$ref": "AAAAAAFElm5XMFNoGY0="
 			},
-			"name": "Model2",
+			"name": "Phase2",
 			"ownedElements": [
 				{
 					"_type": "UMLClassDiagram",
@@ -25489,9 +25489,9 @@
 											"font": "Arial;13;0",
 											"left": 234,
 											"top": -250,
-											"width": 80.9072265625,
+											"width": 82.36083984375,
 											"height": 13,
-											"text": "(from Model2)"
+											"text": "(from Phase2)"
 										},
 										{
 											"_type": "LabelView",
@@ -30910,9 +30910,9 @@
 											"font": "Arial;13;0",
 											"left": -2600,
 											"top": 372,
-											"width": 80.9072265625,
+											"width": 82.36083984375,
 											"height": 13,
-											"text": "(from Model2)"
+											"text": "(from Phase2)"
 										},
 										{
 											"_type": "LabelView",
@@ -33772,9 +33772,9 @@
 											"font": "Arial;13;0",
 											"left": -2538,
 											"top": 890,
-											"width": 80.9072265625,
+											"width": 82.36083984375,
 											"height": 13,
-											"text": "(from Model2)"
+											"text": "(from Phase2)"
 										},
 										{
 											"_type": "LabelView",

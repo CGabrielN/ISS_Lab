@@ -19,7 +19,6 @@ public class OrderItem {
     @Column(name = "id")
     private Long id;
 
-    @NotEmpty(message = "Try again! Order item quantity cannot be empty")
     @Column(name = "quantity")
     private int quantity;
 

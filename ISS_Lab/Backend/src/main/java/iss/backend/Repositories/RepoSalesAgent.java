@@ -17,8 +17,5 @@ public interface RepoSalesAgent extends JpaRepository<SalesAgent, Long> {
     List<SalesAgent> findByManagerId(Long id);
 
     @Query("SELECT s FROM SalesAgent s WHERE s.account.username LIKE %?1% AND s.manager.id = ?2")
-    List<SalesAgent> findByUsernameContainingAndManagerId(String username, Long id);
-
-    @Query("UPDATE SalesAgent s SET s = ?1")
-    SalesAgent update(SalesAgent salesAgent);
+    List<SalesAgent> findByUsernameAndManagerId(String username, Long id);
 }

@@ -3,7 +3,6 @@ package iss.backend.Services;
 import iss.Models.SalesAgent;
 import iss.backend.Repositories.RepoSalesAgent;
 import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -23,7 +22,7 @@ public class ServiceSalesAgent {
     }
 
     public List<SalesAgent> getAgentsFiltered(String username, Long id){
-        return repoSalesAgent.findByUsernameContainingAndManagerId(username, id);
+        return repoSalesAgent.findByUsernameAndManagerId(username, id);
     }
 
     public SalesAgent createAgent(SalesAgent salesAgent){
@@ -40,10 +39,6 @@ public class ServiceSalesAgent {
 
     public List<SalesAgent> getAllAgents(){
         return repoSalesAgent.findAll();
-    }
-
-    public SalesAgent findOneAgent(Long id){
-        return repoSalesAgent.findById(id).orElse(null);
     }
 
     public SalesAgent getAgentById(Long id){

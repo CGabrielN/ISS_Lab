@@ -1,0 +1,31 @@
+.button{
+    -fx-background-color: #00FBFF;
+    -fx-text-fill: white;
+    -fx-font-family: Consolas;
+    -fx-font-size: 16px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+.mainLabel{
+    -fx-font-size: 30px;
+    -fx-color: #000000;
+    -fx-alignment: center-left;
+    -fx-padding: 0 0 0 10px;
+    -fx-font-family: Consolas;
+    -fx-font-weight: bold;
+}
+
+.gridLabels{
+    -fx-font-size: 20px;
+    -fx-color: #000000;
+    -fx-alignment: center-left;
+    -fx-padding: 0 0 0 20px;
+    -fx-font-family: Consolas;
+}
+
+.text-field{
+    -fx-font-size: 16px;
+    -fx-font-family: Consolas;
+    -fx-background-radius: 15px;
+}

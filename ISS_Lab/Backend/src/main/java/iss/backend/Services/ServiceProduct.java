@@ -32,4 +32,12 @@ public class ServiceProduct {
     public Product getProduct(Long id) {
         return repoProduct.findById(id).orElse(null);
     }
+
+    public List<Product> getProductsForCompany(long company_id) {
+        return repoProduct.getProductsForCompany(company_id);
+    }
+
+    public List<Product> getFilteredProductsForCompany(long company_id, String name) {
+        return repoProduct.getFilteredProductsForCompany(company_id, name);
+    }
 }

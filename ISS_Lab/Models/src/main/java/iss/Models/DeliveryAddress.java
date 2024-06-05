@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 @Table(name = "delivery_addresses", schema = "public")
 public class DeliveryAddress {
 
-@Id
+    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "address_id")
     private Long id;
@@ -23,7 +23,6 @@ public class DeliveryAddress {
     @Column(name = "street")
     private String street;
 
-    @NotEmpty(message = "Try again! Street nr cannot be empty")
     @Column(name = "street_nr")
     private int streetNr;
 
@@ -39,11 +38,9 @@ public class DeliveryAddress {
     @Column(name = "country")
     private String country;
 
-    @NotEmpty(message = "Try again! Building cannot be empty")
     @Column(name = "building")
     private int building;
 
-    @NotEmpty(message = "Try again! Suite cannot be empty")
     @Column(name = "suite")
     private int suite;
 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="350.0" maxWidth="400.0" prefHeight="350.0" prefWidth="400.0" styleClass="main_background" stylesheets="@../styles/product-card-style.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="iss.frontend.gui.ProductCardController">
+    <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="background" AnchorPane.bottomAnchor="90.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <ImageView fx:id="imageView" fitHeight="140.0" fitWidth="400.0" pickOnBounds="true" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <Image url="@../assets/test.jpg" />
+        </ImageView>
+        <Label fx:id="productName" text="Product Name" AnchorPane.bottomAnchor="86.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="145.0" />
+        <Label fx:id="productPrice" text="\$12.99" AnchorPane.bottomAnchor="46.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="185.0" />
+        <Label fx:id="productQuantity" text="Available quantity: 500" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="231.0" />
+    </AnchorPane>
+    <Button mnemonicParsing="false" onAction="#handleDecreaseQuantity" styleClass="buttons" text="-" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="75.0" AnchorPane.rightAnchor="290.0" AnchorPane.topAnchor="275.0" />
+    <TextField onKeyTyped="#handleQuantityInput" fx:id="quantityTextField" promptText="quantity" text="0" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="120.0" AnchorPane.rightAnchor="120.0" AnchorPane.topAnchor="275.0" />
+    <Button mnemonicParsing="false" onAction="#handleIncreaseQuantity" styleClass="buttons" text="+" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="290.0" AnchorPane.rightAnchor="75.0" AnchorPane.topAnchor="275.0" />
+    <Button mnemonicParsing="false" onAction="#handleAddToCart" styleClass="add_to_cart_button" text="Add to cart" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="140.0" AnchorPane.rightAnchor="140.0" AnchorPane.topAnchor="315.0" />
+</AnchorPane>

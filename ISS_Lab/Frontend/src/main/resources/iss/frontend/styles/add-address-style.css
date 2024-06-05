@@ -1,0 +1,27 @@
+.label_main{
+    -fx-font-family: Consolas;
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+}
+
+.button{
+    -fx-font-family: Consolas;
+    -fx-font-size: 20px;
+    -fx-background-color: #426B1F;
+    -fx-background-radius: 10px;
+    -fx-text-fill: white;
+}
+
+.text-field{
+    -fx-font-family: Consolas;
+    -fx-font-size: 18px;
+    -fx-padding:10px;
+    -fx-background-radius: 15px;
+}
+
+.textField_labels{
+    -fx-font-family: Consolas;
+    -fx-font-size: 20px;
+    -fx-padding:10px;
+    -fx-alignment: center-right;
+}

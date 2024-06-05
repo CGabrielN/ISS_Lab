@@ -1,0 +1,35 @@
+.label {
+    -fx-font-size: 40px;
+    -fx-font-weight: bold;
+    -fx-color: #000000;
+    -fx-alignment: center;
+    -fx-font-family: Consolas;
+}
+
+.button {
+    -fx-font-family: Consolas;
+    -fx-background-color: #00FBFF;
+    -fx-border: none;
+    -fx-font-color: black;
+    -fx-border-radius: 13px;
+    -fx-background-radius: 13px;
+    -fx-text-align: center;
+    -fx-text-decoration: none;
+    -fx-display: inline-block;
+    -fx-font-size: 24px;
+    -fx-cursor: pointer;
+    -fx-font-weight: bold;
+}
+
+.text-field, .password-field {
+    -fx-font-family: Consolas;
+    -fx-padding: 0px 10px;
+    -fx-border-color: #ccc;
+    -fx-border-style: solid;
+    -fx-border: 1px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-box-sizing: border-box;
+    -fx-prompt-text-fill: #3d3c3c;
+    -fx-font-size: 18px;
+}

@@ -1,0 +1,46 @@
+.button{
+    -fx-background-color: #00FBFF;
+    -fx-text-fill: black;
+    -fx-font-family: Consolas;
+    -fx-font-size: 16px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+.background{
+    -fx-background-color: #FAFAF5;
+    -fx-background-radius: 15px;
+}
+
+
+.nameLabel{
+    -fx-font-family: Consolas;
+    -fx-font-size: 20px;
+    -fx-text-fill: black;
+    -fx-alignment: center;
+
+}
+
+.priceLabel{
+    -fx-font-family: Consolas;
+    -fx-font-size: 20px;
+    -fx-text-fill: #426B1F;
+    -fx-alignment: center;
+}
+.quantityLabel{
+    -fx-font-family: Consolas;
+    -fx-font-size: 20px;
+    -fx-text-fill: #928e8e;
+    -fx-alignment: center;
+}
+
+.descriptionLabel{
+    -fx-font-family: Consolas;
+    -fx-font-size: 16px;
+    -fx-text-fill: #928e8e;
+    /*-fx-alignement: center;*/
+    -fx-padding: 10px;
+    -fx-text-alignment: center;
+
+
+}
